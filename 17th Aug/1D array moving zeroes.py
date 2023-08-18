@@ -1,4 +1,6 @@
-"""size = int(input("Enter the size of the array: "))
+#Method 1
+
+size = int(input("Enter the size of the array: "))
 m = []
 z = []
 print("Enter the elements")
@@ -10,7 +12,8 @@ for i in m:
         m.remove(i)
 m += z
 print(m)
-"""
+
+#Method 2
 
 size = int(input("Enter the size of the array: "))
 m = []
