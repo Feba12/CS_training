@@ -1,14 +1,12 @@
 #peak element refers to the element that is greater than the neighboring elements
 # for the given 1D array, find the find first positive peak element
 
-"""
 #Method 1 - Linear Search Method
 arr = [20, 32, 15, 100, 65]
 for i in range(len(arr)):
     if (i == 0 or arr[i-1] < arr[i]) and (i == len(arr)-1 or arr[i] > arr[i-1]):
         print("First peak element is ", arr[i])
         break
-"""
 
 #Method 2 - Binary search Method
 
